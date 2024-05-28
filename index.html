@@ -14,8 +14,6 @@
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#procedures">Procedures</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -46,10 +44,14 @@
             <div class="procedure">
                 <a href="#procedure-1">Procedure 1</a>
                 <p>Brief description of Procedure 1</p>
+                <!-- Link to PDF -->
+                <a href="pdfs/document1.pdf" target="_blank">Download Procedure 1 PDF</a>
             </div>
             <div class="procedure">
                 <a href="#procedure-2">Procedure 2</a>
                 <p>Brief description of Procedure 2</p>
+                <!-- Link to PDF -->
+                <a href="pdfs/document2.pdf" target="_blank">Download Procedure 2 PDF</a>
             </div>
         </div>
     </section>
@@ -69,37 +71,11 @@
         </div>
         <div class="instructions">
             <p>Detailed instructions for Procedure 1...</p>
+            <!-- Link to PDF -->
+            <a href="pdfs/document1.pdf" target="_blank">Download Procedure 1 PDF</a>
         </div>
     </section>
 
-    <!-- About Page -->
-    <section id="about">
-        <h2>About Us</h2>
-        <p>Information about the purpose of the site and the team...</p>
-    </section>
 
-    <!-- Contact Page -->
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <form action="submit_form.php" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Submit</button>
-        </form>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2024 Refinery Lab. All rights reserved.</p>
-        <div class="social-links">
-            <a href="#">Facebook</a>
-            <a href="#">Twitter</a>
-            <a href="#">LinkedIn</a>
-        </div>
-    </footer>
 </body>
 </html>
