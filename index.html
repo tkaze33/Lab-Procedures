@@ -1,16 +1,105 @@
-
 <!DOCTYPE html>
-<html lang="en"> 
-  <head>
-    <meta charset="UTF-8"> 
-    <meta name="viewport" 
-      content="width=device-width, initial-scale=1.0"> 
-    <title>Refinery Lab Testing Procedures</title> 
-    <link rel="stylesheet" href="styles.css"> 
-  </head> 
-  <body> 
-    <!-- Header --> <header> <div class="logo">Refinery Lab</div>
-        <nav> 
-          <ul> 
-            <li><a 
-  href="#home">Home</a></li> <li><a href="#procedures">Procedures</a></li> <li><a href="#about">About</a></li> <li><a href="#contact">Contact</a></li> </ul> </nav> </header> <!-- Homepage --> <section id="home"> <div class="banner"> <h1>Welcome to the Refinery Lab Testing Procedures Portal</h1> <a href="#procedures" class="cta-button">View Procedures</a> </div> </section> <!-- Procedures Page --> <section id="procedures"> <h2>Procedures</h2> <div class="categories"> <div class="category"> <a href="#quality-control">Quality Control</a> </div> <div class="category"> <a href="#safety-tests">Safety Tests</a> </div> </div> <!-- Category Example --> <div id="quality-control" class="procedure-list"> <h3>Quality Control Procedures</h3> <div class="procedure"> <a href="#procedure-1">Procedure 1</a> <p>Brief description of Procedure 1</p> </div> <div class="procedure"> <a href="#procedure-2">Procedure 2</a> <p>Brief description of Procedure 2</p> </div> </div> </section> <!-- Procedure Detail Page Example --> <section id="procedure-1"> <h2>Procedure 1</h2> <div class="video-container"> <video controls> <source src="procedure1.mp4" type="video/mp4"> Your browser does not support the video tag. </video> </div> <div class="photos"> <img src="step1.jpg" alt="Step 1"> <img src="step2.jpg" alt="Step 2"> </div> <div class="instructions"> <p>Detailed instructions for Procedure 1...</p> </div> </section> <!-- About Page --> <section id="about"> <h2>About Us</h2> <p>Information about the purpose of the site and the team...</p> </section> <!-- Contact Page --> <section id="contact"> <h2>Contact Us</h2> <form action="submit_form.php" method="post"> <label for="name">Name:</label> <input type="text" id="name" name="name" required> <label for="email">Email:</label> <input type="email" id="email" name="email" required> <label for="message">Message:</label> <textarea id="message" name="message" required></textarea> <button type="submit">Submit</button> </form> </section> <!-- Footer --> <footer> <p>&copy; 2024 Refinery Lab. All rights reserved.</p> <div class="social-links"> <a href="#">Facebook</a> <a href="#">Twitter</a> <a href="#">LinkedIn</a> </div> </footer> </body> </html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refinery Lab Testing Procedures</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Refinery Lab</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#procedures">Procedures</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Homepage -->
+    <section id="home">
+        <div class="banner">
+            <h1>Welcome to the Refinery Lab Testing Procedures Portal</h1>
+            <a href="#procedures" class="cta-button">View Procedures</a>
+        </div>
+    </section>
+
+    <!-- Procedures Page -->
+    <section id="procedures">
+        <h2>Procedures</h2>
+        <div class="categories">
+            <div class="category">
+                <a href="#quality-control">Quality Control</a>
+            </div>
+            <div class="category">
+                <a href="#safety-tests">Safety Tests</a>
+            </div>
+        </div>
+
+        <!-- Category Example -->
+        <div id="quality-control" class="procedure-list">
+            <h3>Quality Control Procedures</h3>
+            <div class="procedure">
+                <a href="#procedure-1">Procedure 1</a>
+                <p>Brief description of Procedure 1</p>
+            </div>
+            <div class="procedure">
+                <a href="#procedure-2">Procedure 2</a>
+                <p>Brief description of Procedure 2</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Procedure Detail Page Example -->
+    <section id="procedure-1">
+        <h2>Procedure 1</h2>
+        <div class="video-container">
+            <video controls>
+                <source src="procedure1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="photos">
+            <img src="step1.jpg" alt="Step 1">
+            <img src="step2.jpg" alt="Step 2">
+        </div>
+        <div class="instructions">
+            <p>Detailed instructions for Procedure 1...</p>
+        </div>
+    </section>
+
+    <!-- About Page -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Information about the purpose of the site and the team...</p>
+    </section>
+
+    <!-- Contact Page -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Refinery Lab. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+        </div>
+    </footer>
+</body>
+</html>
