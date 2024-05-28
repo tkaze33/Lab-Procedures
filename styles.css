@@ -2,10 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: white;
+    color: #333;
 }
 
 header {
-    background: #333;
+    background: #007BFF; /* Blue background for header */
     color: white;
     padding: 1em;
     display: flex;
@@ -56,6 +58,8 @@ header nav ul li a {
 .categories {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin: 2em 0;
 }
 
 .category {
@@ -64,11 +68,13 @@ header nav ul li a {
     padding: 1em;
     background: #f4f4f4;
     text-align: center;
+    border: 1px solid #ddd;
+    max-width: 200px;
 }
 
 .category a {
     text-decoration: none;
-    color: #333;
+    color: #007BFF; /* Blue text for category links */
     font-size: 1.2em;
 }
 
@@ -78,6 +84,15 @@ header nav ul li a {
 
 .procedure {
     margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+}
+
+.procedure a {
+    text-decoration: none;
+    color: #007BFF; /* Blue text for procedure links */
+    font-weight: bold;
 }
 
 .video-container {
@@ -88,12 +103,14 @@ header nav ul li a {
 .photos {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .photos img {
     flex: 1;
     margin: 0.5em;
     max-width: 100%;
+    height: auto;
 }
 
 .instructions {
@@ -101,7 +118,7 @@ header nav ul li a {
 }
 
 footer {
-    background: #333;
+    background: #007BFF; /* Blue background for footer */
     color: white;
     text-align: center;
     padding: 1em 0;
@@ -112,4 +129,3 @@ footer .social-links a {
     margin: 0 0.5em;
     text-decoration: none;
 }
-
