@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background: #007BFF; /* Blue background for header */
+    background: #5B9BD5; /* Blue background for header */
     color: white;
     padding: 1em;
     display: flex;
@@ -71,7 +71,7 @@ header nav ul li a {
 
 .category a {
     text-decoration: none;
-    color: #007BFF; /* Blue text for category links */
+    color: #5B9BD5; /* Blue text for category links */
     font-size: 1.2em;
 }
 
@@ -88,7 +88,7 @@ header nav ul li a {
 
 .procedure a {
     text-decoration: none;
-    color: #007BFF; /* Blue text for procedure links */
+    color: #5B9BD5; /* Blue text for procedure links */
     font-weight: bold;
 }
 
@@ -115,7 +115,7 @@ header nav ul li a {
 }
 
 footer {
-    background: #007BFF; /* Blue background for footer */
+    background: #5B9BD5; /* Blue background for footer */
     color: white;
     text-align: center;
     padding: 1em 0;
