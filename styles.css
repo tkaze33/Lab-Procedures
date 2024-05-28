@@ -46,12 +46,9 @@ header nav ul li a {
     margin: 0;
 }
 
-.banner .cta-button {
-    background: #f60;
-    color: white;
-    padding: 1em 2em;
-    text-decoration: none;
-    display: inline-block;
+.banner-image {
+    max-width: 100%;
+    height: auto;
     margin-top: 1em;
 }
 
