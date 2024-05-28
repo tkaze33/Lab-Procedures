@@ -1,1 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5em;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 1em;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    background: url('banner.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 5em 0;
+}
+
+.banner h1 {
+    margin: 0;
+}
+
+.banner .cta-button {
+    background: #f60;
+    color: white;
+    padding: 1em 2em;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.category {
+    flex: 1;
+    margin: 1em;
+    padding: 1em;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.category a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.procedure-list {
+    margin: 2em 0;
+}
+
+.procedure {
+    margin: 1em 0;
+}
+
+.video-container {
+    text-align: center;
+    margin: 2em 0;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photos img {
+    flex: 1;
+    margin: 0.5em;
+    max-width: 100%;
+}
+
+.instructions {
+    margin: 2em 0;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer .social-links a {
+    color: white;
+    margin: 0 0.5em;
+    text-decoration: none;
+}
 
